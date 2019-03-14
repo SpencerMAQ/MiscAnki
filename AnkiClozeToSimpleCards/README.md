@@ -1,0 +1,1 @@
+Just a simple script to convert anki cloze to basic cards exportable as CSV to other flashcard apps
