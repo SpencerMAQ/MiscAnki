@@ -9,8 +9,16 @@ x = re.findall(pattern, sample_text)
 x = [int(i) for i in x if i!='c']
 max_cloze_num = max(x)
 
-print(x)
-print(max_cloze_num)
+# run code for as many clozes there are
+for cloze in range(max_cloze_num):
+    print(cloze+1)
+    cloze_index = cloze+1
+    pattern = r'{{{{c{}::(.*?)}}}}'.format(cloze_index)
+    print(re.match(pattern, sample_text))
+
+
+# print(x)
+# print(max_cloze_num)
 
 refined_text = ''
 
