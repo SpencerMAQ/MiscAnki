@@ -1,3 +1,4 @@
+# wow I just noticed that this was completely unecessary, Anki already has built-in functionality for this
 sample_text = '{{c1::AAA}} - bbb c {{c2::dsadsa}} dasdasdasd {{c2::ddddddd}} ddsadasdsa {{c3::dasdsadasd}} dddd {{c4::dasdsadasd}}'
 
 import re
